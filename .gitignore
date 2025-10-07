@@ -123,21 +123,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-
-# CSV и таблицы
-*.csv
-*.xlsx
-*.xls
-
-# Папки с данными
-data/
-datasets/
-raw_data/
-processed_data/
-output/
-
-# Базы данных
-*.db
-*.sqlite
-*.sqlite3

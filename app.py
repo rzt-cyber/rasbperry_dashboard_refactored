@@ -58,4 +58,4 @@ marketing_tab.register_callbacks(app)
 operations_tab.register_callbacks(app)
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
+    app.run(host='0.0.0.0', port=8050, debug=False)
